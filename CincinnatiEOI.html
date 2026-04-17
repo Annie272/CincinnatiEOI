@@ -159,12 +159,22 @@
                 <input type="checkbox" id="escrow1Checkbox" class="mr-2" />
                 Is this an Escrow Account?
               </label>
-              <input type="hidden" id="00NU70000085iwf" name="00NU70000085iwf" />
+              <input type="hidden" id="00NU70000085iwf" name="Is_this_an_escrow_account_1__c" />
             </div>
+            
+            <div class="mb-4">
+  <label for="mortgageType1" class="block text-sm font-medium text-gray-700">Type</label>
+  <select id="mortgageType1" name="mortgageType1" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm">
+    <option value="">Select Type</option>
+    <option value="First Mortgagee">First Mortgagee</option>
+    <option value="Second Mortgagee">Second Mortgagee</option>
+    <option value="Third Mortgagee">Third Mortgagee</option>
+  </select>
+</div>
 
             <div class="mb-4">
               <label for="00NU70000074ACr" class="block text-sm font-medium text-gray-700">Loan Number<span class="star">*</span></label>
-              <input id="00NU70000074ACr" maxlength="255" name="00NU70000074ACr" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
+              <input id="00NU70000074ACr" maxlength="255" name="loanNumber_1__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
             </div>
 
             <div class="mb-4">
@@ -172,7 +182,7 @@
                 <input type="checkbox" id="atima1Checkbox" class="mr-2" />
                 ATIMA
               </label>
-              <input type="hidden" id="00NU7000008w6re" name="00NU7000008w6re" />
+              <input type="hidden" id="00NU7000008w6re" name="ATIMA__c" />
             </div>
 
             <div class="mb-4">
@@ -180,22 +190,22 @@
                 <input type="checkbox" id="isaoa1Checkbox" class="mr-2" />
                 ISAOA
               </label>
-              <input type="hidden" id="00NU7000008w8ob" name="00NU7000008w8ob" />
+              <input type="hidden" id="00NU7000008w8ob" name="ISAOA__c" />
             </div>
 
             <div class="mb-4">
               <label for="00NU70000074A4n" class="block text-sm font-medium text-gray-700">Name 1<span class="star">*</span></label>
-              <input id="00NU70000074A4n" maxlength="30" name="00NU70000074A4n" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
+              <input id="00NU70000074A4n" maxlength="30" name="name_1__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
             </div>
 
             <div class="mb-4">
-              <label for="00NU70000074APl" class="block text-sm font-medium text-gray-700">Name 2</label>
-              <input id="00NU70000074APl" maxlength="30" name="00NU70000074APl" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
+              <label for="00NU700000749FD" class="block text-sm font-medium text-gray-700">Name 2</label>
+              <input id="00NU700000749FD" maxlength="30" name="name1_1_1__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
             </div>
 
             <div class="mb-4">
               <label for="00NU7000008wIBF" class="block text-sm font-medium text-gray-700">FEIN</label>
-              <input id="00NU7000008wIBF" maxlength="255" name="00NU7000008wIBF" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
+              <input id="00NU7000008wIBF" maxlength="255" name="FEIN__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
             </div>
 
             <div class="mb-4">
@@ -212,37 +222,37 @@
                   No
                 </label>
               </div>
-              <input type="hidden" id="00NU7000007xdVx" name="00NU7000007xdVx" />
+              <input type="hidden" id="00NU7000007xdVx" name="Do_you_want_to_change_mailing_address__c" />
             </div>
 
             <div class="mb-4">
               <label for="00NU7000008o0JZ" class="block text-sm font-medium text-gray-700">Street Number<span class="star">*</span></label>
-              <input id="00NU7000008o0JZ" maxlength="255" name="00NU7000008o0JZ" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
+              <input id="00NU7000008o0JZ" maxlength="255" name="Street_Number__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
             </div>
 
             <div class="mb-4">
               <label for="00NU7000008o0OP" class="block text-sm font-medium text-gray-700">Street Name<span class="star">*</span></label>
-              <input id="00NU7000008o0OP" maxlength="255" name="00NU7000008o0OP" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
+              <input id="00NU7000008o0OP" maxlength="255" name="Street_Name__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
             </div>
 
             <div class="mb-4">
               <label for="00NU7000008oBZx" class="block text-sm font-medium text-gray-700">Apartment/Suite</label>
-              <input id="00NU7000008oBZx" maxlength="255" name="00NU7000008oBZx" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
+              <input id="00NU7000008oBZx" maxlength="255" name="Apartment_Suite__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
             </div>
 
             <div class="mb-4">
               <label for="00NU700000746Z4" class="block text-sm font-medium text-gray-700">PO Box Address<span class="star">*</span></label>
-              <input id="00NU700000746Z4" maxlength="30" name="00NU700000746Z4" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
+              <input id="00NU700000746Z4" maxlength="30" name="address_1__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
             </div>
 
             <div class="mb-4">
               <label for="00NU70000074AG5" class="block text-sm font-medium text-gray-700">City<span class="star">*</span></label>
-              <input id="00NU70000074AG5" maxlength="30" name="00NU70000074AG5" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
+              <input id="00NU70000074AG5" maxlength="30" name="city_1__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
             </div>
 
             <div class="mb-4">
               <label for="00NU70000074AKv" class="block text-sm font-medium text-gray-700">State<span class="star">*</span></label>
-              <select id="00NU70000074AKv" name="00NU70000074AKv" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm">
+              <select id="00NU70000074AKv" name="state_1__c" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm">
                 <option value="">--None--</option>
                 <option value="Arizona">Arizona</option>
                 <option value="AK">AK</option><option value="AL">AL</option><option value="AR">AR</option><option value="AZ">AZ</option>
@@ -266,7 +276,7 @@
 
             <div class="mb-4">
               <label for="00NU7000007qTgD" class="block text-sm font-medium text-gray-700">Zip Code<span class="star">*</span></label>
-              <input id="00NU7000007qTgD" maxlength="30" name="00NU7000007qTgD" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
+              <input id="00NU7000007qTgD" maxlength="30" name="Zip_Auto_Owners_1__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" />
             </div>
           </div>
 
@@ -277,20 +287,30 @@
                 <input type="checkbox" id="escrow2Checkbox" class="mr-2" />
                 Is this an Escrow Account?
               </label>
-              <input type="hidden" id="00NU70000085iv3" name="00NU70000085iv3" />
+              <input type="hidden" id="00NU70000085iv3" name="Is_this_an_escrow_account_2__c" />
             </div>
-            <div class="mb-4"><label for="00NU70000074AXp" class="block text-sm font-medium text-gray-700">Loan Number<span class="star">*</span></label><input id="00NU70000074AXp" maxlength="255" name="00NU70000074AXp" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            
+            <div class="mb-4">
+  <label for="mortgageType1" class="block text-sm font-medium text-gray-700">Type</label>
+  <select id="mortgageType1" name="mortgageType1" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm">
+    <option value="">Select Type</option>
+    <option value="First Mortgagee">First Mortgagee</option>
+    <option value="Second Mortgagee">Second Mortgagee</option>
+    <option value="Third Mortgagee">Third Mortgagee</option>
+  </select>
+</div>
+            <div class="mb-4"><label for="loanNumber_2__c" class="block text-sm font-medium text-gray-700">Loan Number<span class="star">*</span></label><input id="00NU70000074AXp" maxlength="255" name="loanNumber_2__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
             <div class="mb-4">
               <label class="inline-flex items-center text-sm font-medium text-gray-700"><input type="checkbox" id="atima2Checkbox" class="mr-2" />ATIMA</label>
-              <input type="hidden" id="00NU7000008w7pJ" name="00NU7000008w7pJ" />
+              <input type="hidden" id="00NU7000008w7pJ" name="ATIMA_2__c" />
             </div>
             <div class="mb-4">
               <label class="inline-flex items-center text-sm font-medium text-gray-700"><input type="checkbox" id="isaoa2Checkbox" class="mr-2" />ISAOA</label>
-              <input type="hidden" id="00NU7000008w8qD" name="00NU7000008w8qD" />
+              <input type="hidden" id="00NU7000008w8qD" name="ISAOA_2__c" />
             </div>
-            <div class="mb-4"><label for="00NU70000074Axd" class="block text-sm font-medium text-gray-700">Name 1<span class="star">*</span></label><input id="00NU70000074Axd" maxlength="30" name="00NU70000074Axd" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU70000074AUb" class="block text-sm font-medium text-gray-700">Name 2</label><input id="00NU70000074AUb" maxlength="30" name="00NU70000074AUb" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU7000008wICr" class="block text-sm font-medium text-gray-700">FEIN</label><input id="00NU7000008wICr" maxlength="255" name="00NU7000008wICr" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU70000074APl" class="block text-sm font-medium text-gray-700">Name 1<span class="star">*</span></label><input id="00NU70000074APl" maxlength="30" name="name_2__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU70000074AUb" class="block text-sm font-medium text-gray-700">Name 2</label><input id="00NU70000074AUb" maxlength="30" name="name2_2_2__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU7000008wICr" class="block text-sm font-medium text-gray-700">FEIN</label><input id="00NU7000008wICr" maxlength="255" name="FEIN_2__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
             <div class="mb-4">
               <label class="block text-sm font-medium text-gray-700">
                 Is your mailing address a PO BOX address?<span class="star">*</span>
@@ -299,15 +319,15 @@
                 <label class="inline-flex items-center"><input type="radio" name="mailingAddress2" value="Y" class="mr-2" />Yes</label>
                 <label class="inline-flex items-center"><input type="radio" name="mailingAddress2" value="N" class="mr-2" />No</label>
               </div>
-              <input type="hidden" id="00NU7000008w6bV" name="00NU7000008w6bV" />
+              <input type="hidden" id="00NU7000008w6bV" name="Do_you_want_to_change_mailing_address_2__c" />
             </div>
-            <div class="mb-4"><label for="00NU7000008w6GX" class="block text-sm font-medium text-gray-700">Street Number<span class="star">*</span></label><input id="00NU7000008w6GX" maxlength="255" name="00NU7000008w6GX" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU7000008w6TR" class="block text-sm font-medium text-gray-700">Street Name<span class="star">*</span></label><input id="00NU7000008w6TR" maxlength="255" name="00NU7000008w6TR" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU7000008wIKv" class="block text-sm font-medium text-gray-700">Apartment/Suite</label><input id="00NU7000008wIKv" maxlength="255" name="00NU7000008wIKv" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU700000749iM" class="block text-sm font-medium text-gray-700">PO Box Address<span class="star">*</span></label><input id="00NU700000749iM" maxlength="30" name="00NU700000749iM" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU70000074ApZ" class="block text-sm font-medium text-gray-700">City<span class="star">*</span></label><input id="00NU70000074ApZ" maxlength="30" name="00NU70000074ApZ" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU70000074ArB" class="block text-sm font-medium text-gray-700">State<span class="star">*</span></label><select id="00NU70000074ArB" name="00NU70000074ArB" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm"><option value="">--None--</option><option value="Arizona">Arizona</option><option value="AK">AK</option><option value="AL">AL</option><option value="AR">AR</option><option value="AZ">AZ</option><option value="CA">CA</option><option value="CO">CO</option><option value="CT">CT</option><option value="DC">DC</option><option value="DE">DE</option><option value="FL">FL</option><option value="GA">GA</option><option value="HI">HI</option><option value="IA">IA</option><option value="ID">ID</option><option value="IL">IL</option><option value="IN">IN</option><option value="KS">KS</option><option value="KY">KY</option><option value="LA">LA</option><option value="MA">MA</option><option value="MD">MD</option><option value="ME">ME</option><option value="MI">MI</option><option value="MN">MN</option><option value="MO">MO</option><option value="MS">MS</option><option value="MT">MT</option><option value="NC">NC</option><option value="ND">ND</option><option value="NE">NE</option><option value="NH">NH</option><option value="NJ">NJ</option><option value="NM">NM</option><option value="NV">NV</option><option value="NY">NY</option><option value="OH">OH</option><option value="OK">OK</option><option value="OR">OR</option><option value="PA">PA</option><option value="RI">RI</option><option value="SC">SC</option><option value="SD">SD</option><option value="TN">TN</option><option value="TX">TX</option><option value="UT">UT</option><option value="VA">VA</option><option value="VT">VT</option><option value="WA">WA</option><option value="WI">WI</option><option value="WV">WV</option><option value="WY">WY</option><option value="CW">CW</option><option value="PR">PR</option><option value="AS">AS</option><option value="FM">FM</option><option value="GU">GU</option><option value="MH">MH</option><option value="MP">MP</option><option value="PW">PW</option><option value="VI">VI</option><option value="AE">AE</option><option value="AP">AP</option><option value="AA">AA</option><option value="Non-US">Non-US</option></select></div>
-            <div class="mb-4"><label for="00NU7000007qTpt" class="block text-sm font-medium text-gray-700">Zip Code<span class="star">*</span></label><input id="00NU7000007qTpt" maxlength="30" name="00NU7000007qTpt" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU7000008w6GX" class="block text-sm font-medium text-gray-700">Street Number<span class="star">*</span></label><input id="00NU7000008w6GX" maxlength="255" name="Street_Number_2__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU7000008w6TR" class="block text-sm font-medium text-gray-700">Street Name<span class="star">*</span></label><input id="00NU7000008w6TR" maxlength="255" name="Street_Name_2__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU7000008wIKv" class="block text-sm font-medium text-gray-700">Apartment/Suite</label><input id="00NU7000008wIKv" maxlength="255" name="Apartment_Suite_2__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU700000749iM" class="block text-sm font-medium text-gray-700">PO Box Address<span class="star">*</span></label><input id="00NU700000749iM" maxlength="30" name="address_2__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU70000074ApZ" class="block text-sm font-medium text-gray-700">City<span class="star">*</span></label><input id="00NU70000074ApZ" maxlength="30" name="city_2__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU70000074ArB" class="block text-sm font-medium text-gray-700">State<span class="star">*</span></label><select id="00NU70000074ArB" name="state_2__c" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm"><option value="">--None--</option><option value="Arizona">Arizona</option><option value="AK">AK</option><option value="AL">AL</option><option value="AR">AR</option><option value="AZ">AZ</option><option value="CA">CA</option><option value="CO">CO</option><option value="CT">CT</option><option value="DC">DC</option><option value="DE">DE</option><option value="FL">FL</option><option value="GA">GA</option><option value="HI">HI</option><option value="IA">IA</option><option value="ID">ID</option><option value="IL">IL</option><option value="IN">IN</option><option value="KS">KS</option><option value="KY">KY</option><option value="LA">LA</option><option value="MA">MA</option><option value="MD">MD</option><option value="ME">ME</option><option value="MI">MI</option><option value="MN">MN</option><option value="MO">MO</option><option value="MS">MS</option><option value="MT">MT</option><option value="NC">NC</option><option value="ND">ND</option><option value="NE">NE</option><option value="NH">NH</option><option value="NJ">NJ</option><option value="NM">NM</option><option value="NV">NV</option><option value="NY">NY</option><option value="OH">OH</option><option value="OK">OK</option><option value="OR">OR</option><option value="PA">PA</option><option value="RI">RI</option><option value="SC">SC</option><option value="SD">SD</option><option value="TN">TN</option><option value="TX">TX</option><option value="UT">UT</option><option value="VA">VA</option><option value="VT">VT</option><option value="WA">WA</option><option value="WI">WI</option><option value="WV">WV</option><option value="WY">WY</option><option value="CW">CW</option><option value="PR">PR</option><option value="AS">AS</option><option value="FM">FM</option><option value="GU">GU</option><option value="MH">MH</option><option value="MP">MP</option><option value="PW">PW</option><option value="VI">VI</option><option value="AE">AE</option><option value="AP">AP</option><option value="AA">AA</option><option value="Non-US">Non-US</option></select></div>
+            <div class="mb-4"><label for="00NU7000007qTpt" class="block text-sm font-medium text-gray-700">Zip Code<span class="star">*</span></label><input id="00NU7000007qTpt" maxlength="30" name="Zip_Auto_Owners_2__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
           </div>
 
           <div id="addMortgageField3" class="hidden bg-white border rounded-xl p-4">
@@ -317,14 +337,24 @@
                 <input type="checkbox" id="escrow3Checkbox" class="mr-2" />
                 Is this an Escrow Account?
               </label>
-              <input type="hidden" id="00NU70000085itR" name="00NU70000085itR" />
+              <input type="hidden" id="00NU70000085itR" name="Is_this_an_escrow_account_3__c" />
             </div>
-            <div class="mb-4"><label for="00NU70000074B5h" class="block text-sm font-medium text-gray-700">Loan Number<span class="star">*</span></label><input id="00NU70000074B5h" maxlength="30" name="00NU70000074B5h" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label class="inline-flex items-center text-sm font-medium text-gray-700"><input type="checkbox" id="atima3Checkbox" class="mr-2" />ATIMA</label><input type="hidden" id="00NU7000008w82D" name="00NU7000008w82D" /></div>
-            <div class="mb-4"><label class="inline-flex items-center text-sm font-medium text-gray-700"><input type="checkbox" id="isaoa3Checkbox" class="mr-2" />ISAOA</label><input type="hidden" id="00NU7000008w8rp" name="00NU7000008w8rp" /></div>
-            <div class="mb-4"><label for="00NU70000074B45" class="block text-sm font-medium text-gray-700">Name 1<span class="star">*</span></label><input id="00NU70000074B45" maxlength="30" name="00NU70000074B45" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU70000074B7J" class="block text-sm font-medium text-gray-700">Name 2</label><input id="00NU70000074B7J" maxlength="30" name="00NU70000074B7J" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU7000008wFIE" class="block text-sm font-medium text-gray-700">FEIN</label><input id="00NU7000008wFIE" maxlength="255" name="00NU7000008wFIE" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            
+            <div class="mb-4">
+  <label for="mortgageType1" class="block text-sm font-medium text-gray-700">Type</label>
+  <select id="mortgageType1" name="mortgageType1" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm">
+    <option value="">Select Type</option>
+    <option value="First Mortgagee">First Mortgagee</option>
+    <option value="Second Mortgagee">Second Mortgagee</option>
+    <option value="Third Mortgagee">Third Mortgagee</option>
+  </select>
+</div>
+            <div class="mb-4"><label for="00NU70000074B5h" class="block text-sm font-medium text-gray-700">Loan Number<span class="star">*</span></label><input id="00NU70000074B5h" maxlength="30" name="loanNumber_3__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label class="inline-flex items-center text-sm font-medium text-gray-700"><input type="checkbox" id="atima3Checkbox" class="mr-2" />ATIMA</label><input type="hidden" id="00NU7000008w82D" name="ATIMA_3__c" /></div>
+            <div class="mb-4"><label class="inline-flex items-center text-sm font-medium text-gray-700"><input type="checkbox" id="isaoa3Checkbox" class="mr-2" />ISAOA</label><input type="hidden" id="00NU7000008w8rp" name="ISAOA_3__c" /></div>
+            <div class="mb-4"><label for="00NU70000074Axd" class="block text-sm font-medium text-gray-700">Name 1<span class="star">*</span></label><input id="00NU70000074Axd" maxlength="30" name="name_3__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU70000074B45" class="block text-sm font-medium text-gray-700">Name 2</label><input id="00NU70000074B45" maxlength="30" name="name3_3_3__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU7000008wFIE" class="block text-sm font-medium text-gray-700">FEIN</label><input id="00NU7000008wFIE" maxlength="255" name="FEIN_3__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
             <div class="mb-4">
               <label class="block text-sm font-medium text-gray-700">
                 Is your mailing address a PO BOX address?<span class="star">*</span>
@@ -333,15 +363,15 @@
                 <label class="inline-flex items-center"><input type="radio" name="mailingAddress3" value="Y" class="mr-2" />Yes</label>
                 <label class="inline-flex items-center"><input type="radio" name="mailingAddress3" value="N" class="mr-2" />No</label>
               </div>
-              <input type="hidden" id="00NU7000008w6d7" name="00NU7000008w6d7" />
+              <input type="hidden" id="00NU7000008w6d7" name="Do_you_want_to_change_mailing_address_3__c" />
             </div>
-            <div class="mb-4"><label for="00NU7000008w6I9" class="block text-sm font-medium text-gray-700">Street Number<span class="star">*</span></label><input id="00NU7000008w6I9" maxlength="255" name="00NU7000008w6I9" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU7000008w6Wf" class="block text-sm font-medium text-gray-700">Street Name<span class="star">*</span></label><input id="00NU7000008w6Wf" maxlength="255" name="00NU7000008w6Wf" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU7000008wIMX" class="block text-sm font-medium text-gray-700">Apartment/Suite</label><input id="00NU7000008wIMX" maxlength="255" name="00NU7000008wIMX" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU70000074B8v" class="block text-sm font-medium text-gray-700">PO Box Address<span class="star">*</span></label><input id="00NU70000074B8v" maxlength="30" name="00NU70000074B8v" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU70000074B8v_city" class="block text-sm font-medium text-gray-700">City<span class="star">*</span></label><input id="00NU70000074B8v_city" maxlength="30" name="00NU70000074B8v_city" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
-            <div class="mb-4"><label for="00NU70000074BC9" class="block text-sm font-medium text-gray-700">State<span class="star">*</span></label><select id="00NU70000074BC9" name="00NU70000074BC9" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm"><option value="">--None--</option><option value="Arizona">Arizona</option><option value="AK">AK</option><option value="AL">AL</option><option value="AR">AR</option><option value="AZ">AZ</option><option value="CA">CA</option><option value="CO">CO</option><option value="CT">CT</option><option value="DC">DC</option><option value="DE">DE</option><option value="FL">FL</option><option value="GA">GA</option><option value="HI">HI</option><option value="IA">IA</option><option value="ID">ID</option><option value="IL">IL</option><option value="IN">IN</option><option value="KS">KS</option><option value="KY">KY</option><option value="LA">LA</option><option value="MA">MA</option><option value="MD">MD</option><option value="ME">ME</option><option value="MI">MI</option><option value="MN">MN</option><option value="MO">MO</option><option value="MS">MS</option><option value="MT">MT</option><option value="NC">NC</option><option value="ND">ND</option><option value="NE">NE</option><option value="NH">NH</option><option value="NJ">NJ</option><option value="NM">NM</option><option value="NV">NV</option><option value="NY">NY</option><option value="OH">OH</option><option value="OK">OK</option><option value="OR">OR</option><option value="PA">PA</option><option value="RI">RI</option><option value="SC">SC</option><option value="SD">SD</option><option value="TN">TN</option><option value="TX">TX</option><option value="UT">UT</option><option value="VA">VA</option><option value="VT">VT</option><option value="WA">WA</option><option value="WI">WI</option><option value="WV">WV</option><option value="WY">WY</option><option value="CW">CW</option><option value="PR">PR</option><option value="AS">AS</option><option value="FM">FM</option><option value="GU">GU</option><option value="MH">MH</option><option value="MP">MP</option><option value="PW">PW</option><option value="VI">VI</option><option value="AE">AE</option><option value="AP">AP</option><option value="AA">AA</option><option value="Non-US">Non-US</option></select></div>
-            <div class="mb-4"><label for="00NU70000085nmf" class="block text-sm font-medium text-gray-700">Zip Code<span class="star">*</span></label><input id="00NU70000085nmf" maxlength="30" name="00NU70000085nmf" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU7000008w6I9" class="block text-sm font-medium text-gray-700">Street Number<span class="star">*</span></label><input id="00NU7000008w6I9" maxlength="255" name="Street_Number_3__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU7000008w6Wf" class="block text-sm font-medium text-gray-700">Street Name<span class="star">*</span></label><input id="00NU7000008w6Wf" maxlength="255" name="Street_Name_3__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU7000008wIMX" class="block text-sm font-medium text-gray-700">Apartment/Suite</label><input id="00NU7000008wIMX" maxlength="255" name="Apartment_Suite_3__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU70000074B7J" class="block text-sm font-medium text-gray-700">PO Box Address<span class="star">*</span></label><input id="00NU70000074B7J" maxlength="30" name="address_3__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU70000074B8v" class="block text-sm font-medium text-gray-700">City<span class="star">*</span></label><input id="00NU70000074B8v" maxlength="30" name="city_3__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
+            <div class="mb-4"><label for="00NU70000074BC9" class="block text-sm font-medium text-gray-700">State<span class="star">*</span></label><select id="00NU70000074BC9" name="state_3__c" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm"><option value="">--None--</option><option value="Arizona">Arizona</option><option value="AK">AK</option><option value="AL">AL</option><option value="AR">AR</option><option value="AZ">AZ</option><option value="CA">CA</option><option value="CO">CO</option><option value="CT">CT</option><option value="DC">DC</option><option value="DE">DE</option><option value="FL">FL</option><option value="GA">GA</option><option value="HI">HI</option><option value="IA">IA</option><option value="ID">ID</option><option value="IL">IL</option><option value="IN">IN</option><option value="KS">KS</option><option value="KY">KY</option><option value="LA">LA</option><option value="MA">MA</option><option value="MD">MD</option><option value="ME">ME</option><option value="MI">MI</option><option value="MN">MN</option><option value="MO">MO</option><option value="MS">MS</option><option value="MT">MT</option><option value="NC">NC</option><option value="ND">ND</option><option value="NE">NE</option><option value="NH">NH</option><option value="NJ">NJ</option><option value="NM">NM</option><option value="NV">NV</option><option value="NY">NY</option><option value="OH">OH</option><option value="OK">OK</option><option value="OR">OR</option><option value="PA">PA</option><option value="RI">RI</option><option value="SC">SC</option><option value="SD">SD</option><option value="TN">TN</option><option value="TX">TX</option><option value="UT">UT</option><option value="VA">VA</option><option value="VT">VT</option><option value="WA">WA</option><option value="WI">WI</option><option value="WV">WV</option><option value="WY">WY</option><option value="CW">CW</option><option value="PR">PR</option><option value="AS">AS</option><option value="FM">FM</option><option value="GU">GU</option><option value="MH">MH</option><option value="MP">MP</option><option value="PW">PW</option><option value="VI">VI</option><option value="AE">AE</option><option value="AP">AP</option><option value="AA">AA</option><option value="Non-US">Non-US</option></select></div>
+            <div class="mb-4"><label for="00NU70000085nmf" class="block text-sm font-medium text-gray-700">Zip Code<span class="star">*</span></label><input id="00NU70000085nmf" maxlength="30" name="Zip_Auto_Owners_3__c" type="text" class="mt-1 w-full p-2 border border-gray-300 rounded-lg shadow-sm" /></div>
           </div>
         </div>
       </section>
@@ -510,8 +540,8 @@
             streetNumber: document.getElementById("00NU7000008w6I9"),
             streetName: document.getElementById("00NU7000008w6Wf"),
             apt: document.getElementById("00NU7000008wIMX"),
-            poBox: document.getElementById("00NU70000074B8v"),
-            city: document.getElementById("00NU70000074B8v_city"),
+            poBox: document.getElementById("00NU70000074B7J"),
+            city: document.getElementById("00NU70000074B8v"),
             state: document.getElementById("00NU70000074BC9"),
             zip: document.getElementById("00NU70000085nmf")
           }
@@ -691,7 +721,7 @@
             if (!block.atimaHidden.value) missing.push(`${prefix}: ATIMA`);
             if (!block.isaoaHidden.value) missing.push(`${prefix}: ISAOA`);
             const loanIds = [null, "00NU70000074ACr", "00NU70000074AXp", "00NU70000074B5h"];
-            const nameIds = [null, "00NU70000074A4n", "00NU70000074Axd", "00NU70000074B45"];
+            const nameIds = [null, "00NU70000074A4n", "00NU70000074APl", "00NU70000074Axd"];
             if (!document.getElementById(loanIds[block.idx]).value.trim()) missing.push(`${prefix}: Loan Number`);
             if (!document.getElementById(nameIds[block.idx]).value.trim()) missing.push(`${prefix}: Name 1`);
           }
@@ -746,7 +776,7 @@
             addIfFilled(`${prefix}: Zip Code`, block.zip);
 
             const loanIds = [null, "00NU70000074ACr", "00NU70000074AXp", "00NU70000074B5h"];
-            const nameIds = [null, "00NU70000074A4n", "00NU70000074Axd", "00NU70000074B45"];
+            const nameIds = [null, "00NU70000074A4n", "00NU70000074APl", "00NU70000074Axd"];
             addIfFilled(`${prefix}: Loan Number`, document.getElementById(loanIds[block.idx]));
             addIfFilled(`${prefix}: Name 1`, document.getElementById(nameIds[block.idx]));
           }
